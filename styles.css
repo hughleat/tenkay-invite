@@ -40,7 +40,6 @@ p {
   color: #456255;
 }
 
-button,
 a {
   box-sizing: border-box;
   display: block;
@@ -55,9 +54,15 @@ a {
   cursor: pointer;
 }
 
-button {
+.primary {
   background: #6650a4;
   color: white;
+}
+
+.privacy {
+  min-height: 0;
+  margin: 1.5rem auto 0;
+  font-size: .92rem;
 }
 
 .secondary {

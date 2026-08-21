@@ -5,18 +5,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="referrer" content="no-referrer">
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src https://raw.githubusercontent.com; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
   <title>Tenkay invitation</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main>
     <div class="mark" aria-hidden="true">T</div>
-    <h1>Opening your Tenkay invitation</h1>
-    <p id="status" role="status">Finding the current Tenkay server…</p>
-    <button id="retry" type="button" hidden>Try again</button>
+    <h1>You’ve been invited to Tenkay</h1>
+    <p id="status" role="status">Checking your invitation…</p>
+    <a id="open" class="primary" hidden>Open Tenkay</a>
     <a id="play" class="secondary" href="https://play.google.com/store/apps/details?id=com.hughleat.tenkay">Download Tenkay</a>
-    <noscript>This invitation needs JavaScript to find Tenkay’s current server.</noscript>
+    <p class="privacy">Connecting does not share your walks or location. Tenkay will never ask you to enter a server IP address.</p>
+    <noscript>Open this invitation on an Android device with JavaScript enabled.</noscript>
   </main>
   <script type="module" src="app.js"></script>
 </body>
