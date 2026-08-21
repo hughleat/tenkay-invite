@@ -1,4 +1,5 @@
-const ENDPOINT_DOCUMENT_URL = "tenkay-endpoint.json";
+const ENDPOINT_DOCUMENT_URL =
+  "https://raw.githubusercontent.com/hughleat/tenkay-invite/main/tenkay-endpoint.json";
 const INVITE_TOKEN = /^[A-Za-z0-9_-]{32,128}$/;
 
 export function invitationToken(hash) {
